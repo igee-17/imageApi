@@ -30,9 +30,9 @@ Success Response:
     "downloadUrl": "http://your-base-url/get_image/5fec8b79e1e4f4001706b4c1",
     "message": "Image uploaded successfully"
   }
-  Error Responses:
-
   ```
+
+Error Responses:
 
 - Status Code: 400 Bad Request
 - Body:
