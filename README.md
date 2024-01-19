@@ -2,6 +2,59 @@
 
 ## KINDLY FIND ENV FILE ATTACHED IN SUBMISSION EMAIL
 
+### Prerequisites:
+
+- **Node.js and npm:** Make sure you have Node.js and npm installed on your machine. You can download them from [https://nodejs.org/](https://nodejs.org/).
+
+- **MongoDB:** Ensure that MongoDB is installed and running. You can download MongoDB from [https://www.mongodb.com/try/download/community](https://www.mongodb.com/try/download/community).
+
+### Steps to Run the Application:
+
+1. **Clone the Repository:**
+
+   ```bash
+   git clone <repository-url>
+   cd <repository-directory>
+
+   ```
+
+2) **Install Dependencies:**
+
+   ```bash
+   npm install
+
+   ```
+
+3) **Set Up Environment Variables:**
+
+- Create a .env file in the root directory.
+- Add the following environment variables to the file:
+
+  ```json
+      PORT=8000
+      MONGO_URI=<your-mongodb-uri>
+      BASE_URL=http://localhost:8000
+  ```
+
+4. **Start the Application:**
+
+   ```bash
+   npm start
+
+   ```
+
+5. **Testing Endpoints:**
+
+- Image Upload Endpoint: POST http://localhost:8000/upload
+- Get Image Endpoint: GET http://localhost:8000/get_image/:id
+- You can use tools like curl, Postman, or Insomnia to test the API endpoints.
+
+### Additional Notes:
+
+- Ensure that MongoDB is running before starting the application, as it requires a connection to the database.
+- The application will run on the specified port (8000 by default). Make sure the port is available and not in use by other applications.
+- Adjust the MongoDB URI and other environment variables in the .env file based on your setup.
+
 ## Image Upload API
 
 ## Endpoint:
