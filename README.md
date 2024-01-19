@@ -32,7 +32,7 @@
 
   ```json
       PORT=8000
-      MONGO_URI=<your-mongodb-uri>
+      MONGODB_URL=<your-mongodb-uri>
       BASE_URL=http://localhost:8000
   ```
 
