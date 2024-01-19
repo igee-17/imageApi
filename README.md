@@ -39,7 +39,7 @@
 4. **Start the Application:**
 
    ```bash
-   node app.js
+   npm start
 
    ```
 
